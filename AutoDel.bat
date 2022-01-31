@@ -1,0 +1,1 @@
+forfiles /P  C:\get_screenshot\Data /D -30 /c "cmd /c IF @isdir==TRUE rmdir /S /Q @file
